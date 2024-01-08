@@ -1,0 +1,21 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "simple accordion",
+  "main": "dist/accordion.min.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "keywords": [
+    "accordion",
+    "javascript"
+  ],
+  "author": "Gayetan.an",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "terser": "^5.26.0"
+  }
+}
